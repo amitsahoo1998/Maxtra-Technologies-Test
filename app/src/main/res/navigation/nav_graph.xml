@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AddPostFragment">
+
+    <fragment
+        android:id="@+id/PostFragment"
+        android:name="com.example.maxtratechnologiestest.presenter.ui.PostFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_post">
+    </fragment>
+    <fragment
+        android:id="@+id/AddPostFragment"
+        android:name="com.example.maxtratechnologiestest.presenter.ui.AddPostFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_add_post">
+    </fragment>
+</navigation>
